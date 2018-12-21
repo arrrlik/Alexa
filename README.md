@@ -1,10 +1,8 @@
 # Prawie jak alexa
 
 ## Wymagania
-1. Flask
-2. Python
-3. Internet
-4. Chrome
+1. NodeJS
+2. http-server
 
 ## Uruchamianie
-1. W konsoli ```python app.py```
+1. W konsoli ```http-server```
