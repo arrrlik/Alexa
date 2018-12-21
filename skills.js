@@ -4,7 +4,9 @@ const skills = [
     procedure:(fullCommand)=>{
       const blind = document.querySelector("#blind");
       blind.style.display = "block";
-      setTimeout(1000,()=>blind.style.display = "none");
+      setTimeout(()=>{
+        blind.style.display = "none"
+      }, 200);
     }
   }
 ]

@@ -1,0 +1,5 @@
+const Speech = {
+  say: (text) => {
+
+  }
+}
