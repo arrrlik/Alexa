@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alexa</title>
+    <link rel="stylesheet" href="./alexa.css">
+    <script src="./skills.js"></script>
+    <script src="./alexa.js"></script>
+</head>
+<body>
+    <div class="col">
+        <h3>Alexa-nie-Alexa</h3>
+        <div class="row">
+            <div><h5>status:</h5></div>
+            <div><h5 id="status">nie słucha, czeka na kliknięcie</h5></div>
+        </div>
+        <div class="row">
+            <div><h5>rozpoznana fraza:</h5></div>
+            <div><h5 id="result"></h5></div>
+        </div>
+        <div class="row">
+            <div><h5>napotkane problemy:</h5></div>
+            <div><h5 id="issues"></h5></div>
+        </div>
+        <div class="row">
+            <div><h5>wiarygodność:</h5></div>
+            <div><h5 id="confidence"></h5></div>
+        </div>
+        <div class="row">
+            <div><input id="command" type="text" placeholder="command"/></div>
+            <div><button id="simulate">zasymuluj polecenie</button></div>
+        </div>
+        <div class="row">
+            <button id="start">nasłuchuj</button>
+        </div>
+    </div>
+    <div id="blind"></div>
+</body>
+</html>
